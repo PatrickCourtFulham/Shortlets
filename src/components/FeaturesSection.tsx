@@ -4,6 +4,19 @@ import VideoBackground from "./VideoBackground";
 import FeaturesGrid from "./FeaturesGrid";
 
 const FeaturesSection = () => (
+
+ const handleWhatsApp = () => {
+    window.open(
+      "https://wa.me/2349033206525?text=Hi! I'm interested in booking an apartment.",
+      "_blank"
+    );
+  };
+
+  const handleBooking = () => {
+    document.getElementById("booking")?.scrollIntoView({ behavior: "smooth" });
+  };
+  
+  
   <section className="relative py-20 px-6 overflow-hidden bg-background">
     <div className="relative z-10 max-w-6xl mx-auto">
       <FeaturesGrid />
@@ -40,6 +53,7 @@ const FeaturesSection = () => (
           <Button
             variant="outline"
             size="lg"
+            onClick={handleWhatsApp}
             className="min-w-[180px] border-primary text-primary hover:bg-primary hover:text-black"
           >
             <MessageCircle className="mr-2 h-5 w-5" />
