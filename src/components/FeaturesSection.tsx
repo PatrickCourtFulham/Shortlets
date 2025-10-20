@@ -19,6 +19,16 @@ const FeaturesSection = () => (
           ensure your comfort.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="tel:+4733378901">
+            <Button
+            variant="default"
+            size="lg"
+            className="min-w-[180px] bg-primary hover:bg-primary-glow text-black font-semibold"
+          >
+            <Phone className="mr-2 h-5 w-5" />
+            Call Now
+          </Button>
+          </a>
           <Button
             variant="default"
             size="lg"
