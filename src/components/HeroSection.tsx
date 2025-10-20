@@ -5,7 +5,7 @@ import heroImage from "@/assets/hero-apartment.jpg";
 const HeroSection = () => {
   const handleWhatsApp = () => {
     window.open(
-      "https://wa.me/2348036984078?text=Hi! I'm interested in booking your luxury apartment.",
+      "https://wa.me/2349033206525?text=Hi! I'm interested in booking an apartment.",
       "_blank"
     );
   };
