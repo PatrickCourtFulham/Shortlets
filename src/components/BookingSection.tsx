@@ -269,25 +269,25 @@ const BookingSection = () => {
                     <span className="text-muted-foreground">
                       1 Bedroom (per night)
                     </span>
-                    <span className="font-semibold text-primary">₦150,000</span>
+                    <span className="font-semibold text-primary">₦200,000</span>
                   </div>
                   <div className="flex justify-between items-center py-2 border-b border-border">
                     <span className="text-muted-foreground">
                       2 Bedroom (per night)
                     </span>
-                    <span className="font-semibold text-primary">₦200,000</span>
+                    <span className="font-semibold text-primary">₦300,000</span>
                   </div>
                   <div className="flex justify-between items-center py-2 border-b border-border">
                     <span className="text-muted-foreground">
                       3 Bedroom (per night)
                     </span>
-                    <span className="font-semibold text-primary">₦300,000</span>
+                    <span className="font-semibold text-primary">₦400,000</span>
                   </div>
                   <div className="flex justify-between items-center py-2 border-b border-border">
                     <span className="text-muted-foreground">
                       4 Bedroom (per night)
                     </span>
-                    <span className="font-semibold text-primary">₦350,000</span>
+                    <span className="font-semibold text-primary">₦500,000</span>
                   </div>
                   <p className="text-sm text-muted-foreground pt-2">
                     Weekly and monthly rates may vary depending on availability
