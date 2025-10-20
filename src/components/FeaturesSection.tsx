@@ -3,19 +3,24 @@ import { Phone, MessageCircle } from "lucide-react";
 import VideoBackground from "./VideoBackground";
 import FeaturesGrid from "./FeaturesGrid";
 
- const handleWhatsApp = () => {
+
+
+
+const FeaturesSection = () => (  
+
+  const handleWhatsApp = () => {
     window.open(
       "https://wa.me/2349033206525?text=Hi! I'm interested in booking an apartment.",
       "_blank"
     );
   };
 
-
-const FeaturesSection = () => (  
+ return(
   <section className="relative py-20 px-6 overflow-hidden bg-background">
     <div className="relative z-10 max-w-6xl mx-auto">
       <FeaturesGrid />
 
+     
       {/* Call to Action */}
       <div className="text-center bg-black/40 backdrop-blur-md p-8 rounded-2xl border border-primary/30 shadow-glow">
         <h3 className="text-3xl font-bold text-white mb-4 animate-glow-pulse">
@@ -57,7 +62,7 @@ const FeaturesSection = () => (
         </div>
       </div>
     </div>
-  </section>
+  </section>)
 );
 
 export default FeaturesSection;
