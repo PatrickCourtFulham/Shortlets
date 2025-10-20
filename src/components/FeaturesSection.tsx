@@ -32,7 +32,7 @@ const FeaturesSection = () => (
           ensure your comfort.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="tel:+4733378901">
+          <a href="tel:+2349033206525">
             <Button
             variant="default"
             size="lg"
